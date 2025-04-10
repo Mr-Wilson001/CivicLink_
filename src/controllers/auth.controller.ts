@@ -7,7 +7,6 @@ import { Official } from "../models/officials";
 
 const JWT_SECRET = process.env.JWT_SECRET!;
 
-import { firebaseAuth } from "../firebase";
 
 export const registerCitizen = async (req: Request, res: Response): Promise<void> => {
   try {
